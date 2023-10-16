@@ -1,24 +1,22 @@
-# RALLY-CAR-RF
+# ACKER-CAR-RF
 
-# Proyecto de Coche Radiocontrol con Radiofrecuencia
+# Proyecto de Coche teleoperado vía Wi-Fi
 
-![Coche Radiocontrol](https://github.com/aglora/rally-car/blob/main/Imgs/1.jpg)
+![Coche](https://github.com/aglora/acker-car/blob/main/Imgs/1.jpg)
 
-Este proyecto tiene como objetivo restaurar un coche radiocontrol en mal estado mediante el desarrollo de un sistema electrónico personalizado. Hemos utilizado un chasis existente y se han integrado los componentes necesarios para crear un sistema completamente funcional. Además, he diseñado un control remoto personalizado para operar el coche. El sistema de comunicación se basa en módulos transceptores nRF24L01.
+Este proyecto tiene como objetivo restaurar un coche radiocontrol en configuración ackerman, en mal estado, mediante el desarrollo de un sistema electrónico personalizado. Hemos utilizado un chasis existente y se han integrado los componentes necesarios para crear un sistema completamente funcional. Además, he diseñado un control remoto personalizado para operar el coche por medio de comunicación Wi-Fi gracias a los módulos integrados en las placas Wemos D1 Mini basadas en el microprocesador ESP8266.
 
 ## Componentes Principales
 
-- Chasis de coche estilo rally
-- Placa Arduino Nano (usada como receptor rf)
-- Microcontrolador ESP8266 (Placa Wemos D1 mini, transmisor rf)
-- Módulos transceptores nRF24L01 para la comunicación por radiofrecuencia
-- Joysticks de un mando viejo de PS2
+- Chasis de coche estilo deportivo
+- Placas Wemos D1 Mini ESP8266 (receptor y emisor)
+- Joysticks, potenciometros e interruptores
 - Reguladores de tensión
 - Baterías Li-Po para coche y mando
 - Convertidores analógico-digital lectura joysticks
 - Driver de motores para dirección y tracción
 
-![Componentes Sistema Electrónico Interno](https://github.com/aglora/rally-car/blob/main/Imgs/2.jpg)
+![Componentes Sistema Electrónico Interno](https://github.com/aglora/acker-car/blob/main/Imgs/2.jpg)
 
 ## Funcionalidades Principales
 
@@ -30,4 +28,4 @@ Este proyecto tiene como objetivo restaurar un coche radiocontrol en mal estado 
 
 - **Función de Emergencia:** Parada en caso de pérdida de comunicación.
 
-![Componentes Sistema Electrónico Interno](https://github.com/aglora/rally-car/blob/main/Imgs/3.jpg)
+![Componentes Sistema Electrónico Interno](https://github.com/aglora/acker-car/blob/main/Imgs/3.jpg)
