@@ -2,7 +2,7 @@
 
 # Proyecto de Coche teleoperado vía Wi-Fi
 
-![Coche](https://github.com/aglora/acker-car/blob/main/Imgs/1.jpg)
+![Coche+mando](https://github.com/aglora/acker-car/blob/main/Imgs/1.jpg)
 
 Este proyecto tiene como objetivo restaurar un coche radiocontrol en configuración ackerman, en mal estado, mediante el desarrollo de un sistema electrónico personalizado. Hemos utilizado un chasis existente y se han integrado los componentes necesarios para crear un sistema completamente funcional. Además, he diseñado un control remoto personalizado para operar el coche por medio de comunicación Wi-Fi gracias a los módulos integrados en las placas Wemos D1 Mini basadas en el microprocesador ESP8266.
 
@@ -15,8 +15,10 @@ Este proyecto tiene como objetivo restaurar un coche radiocontrol en configuraci
 - Baterías Li-Po para coche y mando
 - Convertidores analógico-digital lectura joysticks
 - Driver de motores para dirección y tracción
+- LDR detección luminosidad
+- LEDS luces delanteras para faros
 
-![Componentes Sistema Electrónico Interno](https://github.com/aglora/acker-car/blob/main/Imgs/2.jpg)
+![Video_1](https://github.com/aglora/acker-car/blob/main/Imgs/2.mp4)
 
 ## Funcionalidades Principales
 
@@ -26,6 +28,10 @@ Este proyecto tiene como objetivo restaurar un coche radiocontrol en configuraci
 
 - **Control de Velocidad**
 
-- **Función de Emergencia:** Parada en caso de pérdida de comunicación WiFi.
+- **Función de Emergencia:** Parada en caso de pérdida de comunicación WiFi
 
-![Componentes Sistema Electrónico Interno](https://github.com/aglora/acker-car/blob/main/Imgs/3.jpg)
+- **Bocina:** Es posible hacer sonar un claxon
+
+- **Luces Automáticas:** Cuenta con una ristra de leds que se encienden al detectar poca luz, por debajo de un cierto umbral. También es posible encenderlos de forma manual.
+
+![Vídeo 2](https://github.com/aglora/acker-car/blob/main/Imgs/3.mp4)
