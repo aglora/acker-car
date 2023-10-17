@@ -18,7 +18,7 @@ Este proyecto tiene como objetivo restaurar un coche radiocontrol en configuraci
 - LDR detección luminosidad
 - LEDS luces delanteras para faros
 
-![Video_1](https://github.com/aglora/acker-car/blob/main/Imgs/2.mp4)
+![Video_1](https://github.com/aglora/acker-car/blob/main/Imgs/2.gif)
 
 ## Funcionalidades Principales
 
@@ -34,4 +34,4 @@ Este proyecto tiene como objetivo restaurar un coche radiocontrol en configuraci
 
 - **Luces Automáticas:** Cuenta con una ristra de leds que se encienden al detectar poca luz, por debajo de un cierto umbral. También es posible encenderlos de forma manual.
 
-![Vídeo 2](https://github.com/aglora/acker-car/blob/main/Imgs/3.mp4)
+![Vídeo 2](https://github.com/aglora/acker-car/blob/main/Imgs/3.gif)
