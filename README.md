@@ -3,7 +3,7 @@
 # Proyecto de Coche teleoperado vía Wi-Fi
 
 ![Coche+mando](https://github.com/aglora/acker-car/blob/main/Imgs/1.jpg)
-<Coche+mando src="https://github.com/aglora/acker-car/blob/main/Imgs/1.jpg" width="300">
+<img src="https://github.com/aglora/acker-car/blob/main/Imgs/1.jpg" width="300">
 
 
 Este proyecto tiene como objetivo restaurar un coche radiocontrol en configuración ackerman, en mal estado, mediante el desarrollo de un sistema electrónico personalizado. Hemos utilizado un chasis existente y se han integrado los componentes necesarios para crear un sistema completamente funcional. Además, he diseñado un control remoto personalizado para operar el coche por medio de comunicación Wi-Fi gracias a los módulos integrados en las placas Wemos D1 Mini basadas en el microprocesador ESP8266.
