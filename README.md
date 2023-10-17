@@ -1,4 +1,4 @@
-# ACKER-CAR-RF
+# ACKER-CAR-WIFI
 
 # Proyecto de Coche teleoperado vía Wi-Fi
 
@@ -26,6 +26,6 @@ Este proyecto tiene como objetivo restaurar un coche radiocontrol en configuraci
 
 - **Control de Velocidad**
 
-- **Función de Emergencia:** Parada en caso de pérdida de comunicación.
+- **Función de Emergencia:** Parada en caso de pérdida de comunicación WiFi.
 
 ![Componentes Sistema Electrónico Interno](https://github.com/aglora/acker-car/blob/main/Imgs/3.jpg)
